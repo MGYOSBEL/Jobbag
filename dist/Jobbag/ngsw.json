@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1574666012764,
+  "timestamp": 1574712119673,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.282737ab61d871a87ee6.js",
-        "/main-es5.82ff7e2a86f53fcecdca.js",
+        "/main-es2015.db853fa54658dcf8d8d7.js",
+        "/main-es5.27c6f0e479fd3b8d8c0f.js",
         "/polyfills-es2015.27661dfa98f6332c27dc.js",
         "/polyfills-es5.4e06eb653a3c8a2d581f.js",
         "/runtime-es2015.858f8dd898b75fe86926.js",
@@ -51,9 +51,9 @@
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/assets/img/marten-bjork-6dW3xyQvcYE-unsplash.jpg": "f2d3602cf22fb6c7afa12f1aa92e104510c79e72",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "1d4cd186f4852d4094948dbdadb8ee382a9ae5c1",
-    "/main-es2015.282737ab61d871a87ee6.js": "85ea8a83c70731eda98cd64c957b1399700390ec",
-    "/main-es5.82ff7e2a86f53fcecdca.js": "916c421298c926198566f0fd28a934b0e95e8bc2",
+    "/index.html": "17bf0aea1edbae25ba065b1d9efbb47a6e4a0bc4",
+    "/main-es2015.db853fa54658dcf8d8d7.js": "6a1c3143f0036b07d59d66c023f26827730c5beb",
+    "/main-es5.27c6f0e479fd3b8d8c0f.js": "30028e6b585e676dd11d84dd7f5f3cdbeee0e967",
     "/marten-bjork-6dW3xyQvcYE-unsplash.62e38b88cd1399b604db.jpg": "f2d3602cf22fb6c7afa12f1aa92e104510c79e72",
     "/polyfills-es2015.27661dfa98f6332c27dc.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
     "/polyfills-es5.4e06eb653a3c8a2d581f.js": "f84a71ef6c7a788b5fe701bf2405313d7766a66d",
