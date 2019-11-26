@@ -7,7 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment.prod';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { environment } from '../environments/environment.prod';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('./ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
