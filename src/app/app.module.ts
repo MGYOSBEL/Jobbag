@@ -8,13 +8,17 @@ import { FooterComponent } from './footer/footer.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { FeaturesPresentationComponent } from './features-presentation/features-presentation.component';
+import { StoryComponent } from './story/story.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    PresentationComponent
+    PresentationComponent,
+    FeaturesPresentationComponent,
+    StoryComponent
   ],
   imports: [
     BrowserModule,

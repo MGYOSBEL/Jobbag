@@ -1,0 +1,11 @@
+.container-fluid{
+  background-color: aliceblue;
+}
+
+.story-content-section{
+}
+
+.story-image {
+  width: 250px;
+  height: auto;/* por lo general esta no hay q declararla, pero para los browsers antiguos si */
+}
