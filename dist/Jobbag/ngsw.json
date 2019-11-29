@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1574745386494,
+  "timestamp": 1575054770559,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,13 +10,13 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.969ed95d76d0de710aa2.js",
-        "/main-es5.1aabaea04ce8650cf50a.js",
+        "/main-es2015.87bde3d33fe820f75fe6.js",
+        "/main-es5.330876ad1107a6465654.js",
         "/polyfills-es2015.27661dfa98f6332c27dc.js",
         "/polyfills-es5.4e06eb653a3c8a2d581f.js",
         "/runtime-es2015.858f8dd898b75fe86926.js",
         "/runtime-es5.741402d1d47331ce975c.js",
-        "/styles.7a87099e9aaa92c20513.css"
+        "/styles.c1b3a263ea443505049e.css"
       ],
       "patterns": []
     },
@@ -33,8 +33,12 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
+        "/assets/img/alerts.png",
+        "/assets/img/connection.png",
         "/assets/img/marten-bjork-6dW3xyQvcYE-unsplash.jpg",
-        "/marten-bjork-6dW3xyQvcYE-unsplash.62e38b88cd1399b604db.jpg"
+        "/assets/img/matthew-henry-nvFpb_MMRj8-unsplash.jpg",
+        "/assets/img/verified.png",
+        "/matthew-henry-nvFpb_MMRj8-unsplash.6020e4419e375b37a0ab.jpg"
       ],
       "patterns": []
     }
@@ -49,17 +53,21 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/img/alerts.png": "12a4e97bae94c285ed390ccb46fd43c0b693439d",
+    "/assets/img/connection.png": "5da4331aa3da5c6b46a329967656ab75c9278e6a",
     "/assets/img/marten-bjork-6dW3xyQvcYE-unsplash.jpg": "f2d3602cf22fb6c7afa12f1aa92e104510c79e72",
+    "/assets/img/matthew-henry-nvFpb_MMRj8-unsplash.jpg": "3a03784c48cca6ef699d6e67e681b923f6bb7f89",
+    "/assets/img/verified.png": "d9ecd39604ffea55ebec392ac40cf6b9d5062b19",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "cb0589d91547716be6576666dcba9e4f8c6351e7",
-    "/main-es2015.969ed95d76d0de710aa2.js": "627a8070d06ac0d8fad676e9c76d31bef48556a3",
-    "/main-es5.1aabaea04ce8650cf50a.js": "41fb4fe36ecc1af0a18e8ecff72552d04b59650e",
-    "/marten-bjork-6dW3xyQvcYE-unsplash.62e38b88cd1399b604db.jpg": "f2d3602cf22fb6c7afa12f1aa92e104510c79e72",
+    "/index.html": "6af0cd13a3361e359154e2d9daed3a86f8d6d80c",
+    "/main-es2015.87bde3d33fe820f75fe6.js": "4ec1cc88a7a27cc714cc5ac04f7b68aa15bb8199",
+    "/main-es5.330876ad1107a6465654.js": "4225be480a6e78106cb88cb7311c847e9f12d9b9",
+    "/matthew-henry-nvFpb_MMRj8-unsplash.6020e4419e375b37a0ab.jpg": "3a03784c48cca6ef699d6e67e681b923f6bb7f89",
     "/polyfills-es2015.27661dfa98f6332c27dc.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
     "/polyfills-es5.4e06eb653a3c8a2d581f.js": "f84a71ef6c7a788b5fe701bf2405313d7766a66d",
     "/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/runtime-es5.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.7a87099e9aaa92c20513.css": "dab67998be484cad32b8db5ec7dea5ac5f233f37"
+    "/styles.c1b3a263ea443505049e.css": "04c288f6b59a74b4019ffb24a47e52299bdc7cad"
   },
   "navigationUrls": [
     {
