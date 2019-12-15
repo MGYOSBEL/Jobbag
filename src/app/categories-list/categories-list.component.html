@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <table class="table thead-dark">
+    <thead>
+      <th>Name</th>
+      <th>Description</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let category of categories">
+        <th>{{category.name}}</th>
+        <td>{{category.description}}</td>
+      </tr>
+    </tbody>
+
+  </table>
+</div>
+
