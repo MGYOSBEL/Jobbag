@@ -11,6 +11,10 @@ import { environment } from '../environments/environment';
 import { FeaturesPresentationComponent } from './features-presentation/features-presentation.component';
 import { StoryComponent } from './story/story.component';
 import { CategoriesListComponent } from './categories-list/categories-list.component';
+import { AddCategoryComponent } from './add-category/add-category.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -20,13 +24,18 @@ import { CategoriesListComponent } from './categories-list/categories-list.compo
     PresentationComponent,
     FeaturesPresentationComponent,
     StoryComponent,
-    CategoriesListComponent
+    CategoriesListComponent,
+    AddCategoryComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
+    ReactiveFormsModule,
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
+    BrowserAnimationsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,10 @@
-<nav class="navbar navbar-expand navbar-light justify-content-between container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light justify-content-between container-fluid">
   <div class="col-4 navbar-brand">
-    <b class="display-4">{{title}}</b>
+    <b class="display-4">
+      <a routerLink="" routerLinkActive="active" class="text-dark">
+        {{title}}
+      </a>
+    </b>
   </div>
   <div class="col-6">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -11,14 +15,14 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="nav nav-pills nav-fill">
         <li class="nav-item  ">
-          <!-- <a class="nav-link display-6" href="#">LOGIN / REGISTER</a> -->
+
 
           <button class="btn btn-link text-dark " routerLink="/categories" routerLinkActive="active"><b>CATEGORIES </b></button>
         </li>
         <li class="nav-item  ">
-          <!-- <a class="nav-link display-6" href="#">LOGIN / REGISTER</a> -->
 
-          <button class="btn btn-link text-dark "><b>LOGIN / REGISTER </b></button>
+
+          <button class="btn btn-link text-dark" data-toggle="modal" data-target="#exampleModalCenter"><b>LOGIN / REGISTER </b></button>
         </li>
       </ul>
     </div>

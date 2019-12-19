@@ -12,15 +12,17 @@ import {Observable} from 'rxjs';
 })
 export class CategoriesListComponent implements OnInit {
 
-  categories: Category[];
+  categories: Observable<Category[]>;
 
   constructor(private dataService: DataService) {
-     this.dataService.getAllCategories().subscribe (
-       categories => this.categories = categories
-     );
+
   }
 
   ngOnInit() {
+    this.categories = this.dataService.getAllCategories();
+    //   categories => this.categories = categories
+    // );
+    console.log("yujuuuuu, me cargueeeeee");
   }
 
 }
