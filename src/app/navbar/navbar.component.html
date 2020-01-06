@@ -22,9 +22,27 @@
         <li class="nav-item  ">
 
 
-          <button class="btn btn-link text-dark" data-toggle="modal" data-target="#exampleModalCenter"><b>LOGIN / REGISTER </b></button>
+          <button class="btn btn-link text-dark" data-toggle="modal" data-target="#ModalLoginForm"><b>LOGIN / REGISTER </b></button>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
+
+<!-- Modal HTML Markup -->
+<div id="ModalLoginForm" class="modal fade">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title text-xs-center">Log in</h4>
+      </div><!-- /.modal-header -->
+      <div class="modal-body">
+        <app-login-page></app-login-page>
+      </div><!-- /.modal-body -->
+      <div class="modal-footer text-xs-center">
+        Don't have an account? <a href="/auth/register">Sign up »</a>
+      </div><!-- /.modal-footer -->
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

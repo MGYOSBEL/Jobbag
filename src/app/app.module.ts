@@ -14,6 +14,7 @@ import { CategoriesListComponent } from './categories-list/categories-list.compo
 import { AddCategoryComponent } from './add-category/add-category.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginPageComponent} from './login-page/login-page.component';
 
 
 @NgModule({
@@ -26,7 +27,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     StoryComponent,
     CategoriesListComponent,
     AddCategoryComponent,
-
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
